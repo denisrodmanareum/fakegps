@@ -1,5 +1,6 @@
 name: Build APK
-
+        run: gradle assembleDebug
+        working-directory: GhostLocation
 on:
   push:
     branches: [ main, master ]
